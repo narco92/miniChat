@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(white 10%, rgb(4, 43, 116) 80%, white 10%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background: linear-gradient(white, rgb(4, 43, 116));
+}
+
+h1 {
+    margin-right: 10px;
+    font-family: fantasy;
+    font-size: 1.3em;
+    color: white
+}
+
+#centre {
+    width: 500px;
+    max-height: 550px;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px rgb(4, 43, 116) solid;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#msg {
+    overflow: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#message {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    border: 1px rgb(4, 43, 116) solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#btn {
+    border: 1px rgb(4, 43, 116) solid;
+    border-radius: 5px;
+    background: rgb(4, 43, 166);
+    color: white;
+}
+
+em {
+    font-weight: bold;
+    color: rgb(4, 43, 166)
+}
+
+.photoProfile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.photochat {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%
+}
+
+#photoNom {
+    display: flex;
+}

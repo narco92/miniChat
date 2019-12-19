@@ -1,0 +1,101 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(white 10%, rgb(4, 43, 116) 80%, white 10%);
+}
+
+#conexion {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(white, rgb(4, 43, 116));
+}
+
+#inscription {
+    background: white;
+    border: 1px rgb(31, 2, 190) solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 650px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#A {
+    background: linear-gradient(white, rgba(105, 204, 250, 0.315), white, rgba(105, 204, 250, 0.315));
+    border-radius: 5px;
+    height: 48%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#A label {
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: end;
+}
+
+#B {
+    background: linear-gradient(white, rgba(105, 204, 250, 0.315), white, rgba(105, 204, 250, 0.315));
+    border-radius: 5px;
+    height: 48%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#B label {
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: end;
+}
+
+#BSubmit {
+    margin: auto;
+    width: 2cm;
+}
+
+h1 {
+    border: 1px white outset;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px white;
+    background: rgba(4, 43, 116, 0.815);
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 5px;
+}
